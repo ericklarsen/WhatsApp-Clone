@@ -1,17 +1,24 @@
-.sidebarChat{
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.sidebarChat {
     display: flex;
-    padding : 20px;
+    padding: 20px;
     cursor: pointer;
     border-bottom: 1px solid #f6f6f6;
     transition: all 350ms ease-in-out;
 
-    &:hover{
+    
+    &:hover {
         background-color: #ebebeb;
     }
 
-    .sidebarChat_info{
+    .sidebarChat_info {
         margin-left: 15px;
-        h2{
+
+        h2 {
             font-size: 16px;
             margin-bottom: 8px;
         }
